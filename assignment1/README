@@ -1,0 +1,29 @@
+Design for a Webpage
+I am currently working on a game in Unreal 5 so I would want to make a webpage for the game including updates, screenshots, artwork, current roadmap, and more.
+
+Stylistically what the webpage should include:
+1. Logo with the game title
+2. 5 Tabs: Home, Artwork, Screenshots, Roadmap, Q&A
+
+TABS:
+1. Homepage
+  - The homepage should include a basic setup with the logo in the top left corner
+  - Brief expository section about the game
+  - Video trailer and/or vidoes of current development
+  - Links to resources used for development like UE, Previous Source code, and libraries
+  
+2. Artwork
+  - List of the entitites and items featured in the game
+  - Sublinks attached to the listed items that let you choose which one to look at
+  - Concept art, models, animations, and sfx as well as expository pieces for each
+  - Links to Resources
+  
+3. Screenshots
+  - Serve as an update bank of screenshots and current progress with the game
+  - Try to avoid having duplicate screenshots already shown in the artwork section
+
+4. Roadmap
+  - Show current roadmap and development progress along with some information about future updates and improvement areas
+  
+5. Q&A (BIG MAYBE)
+  - Place where I post commonly asked questions along with their answers and a questions box where questions can be sent to
