@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+   	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>Interactive Muscle Anatomy</title>
+<style>
+body {
+     background-color: rgb(171,219,227);
+}
+         
+.main {
+	text-align: center;
+}
+.Title {
+        color: #873e23;
+        font-size: 50px;
+       	font-weight: bold;
+}
+ #text_style {
+	font-style: bold;
+	font-size: 20px;
+	border-bottom: 3px dotted darkgreen;
+}
+
+.container {
+
+	width: 100%;
+	position: relative
+	
+}
+
+.image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  	width: 50%;
+  	height: auto;
+}
+
+.overlay {
+	position: absolute;
+  	bottom: 100%;
+  	margin-left: 498px;
+  	margin-right: auto;
+  	background-color: #008CBA;
+  	overflow: hidden;
+  	width: 50%;
+  	height: 0;
+  	transition: .5s ease;
+}
+
+.container:hover .overlay {
+  	bottom: 0;
+  	height: 100%;
+}
+
+.text {
+  	white-space: nowrap; 
+  	color: white;
+  	font-size: 20px;
+  	position: absolute;
+  	overflow: hidden;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+ <div class="Title">Muscle Anatomy</div>
+  <div id="text_style">
+    An interactive guide to the human body
+  </div>
+
+ <div class="container">
+  <img src="https://as1.ftcdn.net/v2/jpg/02/81/07/54/1000_F_281075483_kR7NTb1zt9weEsSsGUc9wIG3uQVTh74H.jpg" 
+  alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Interaction not yet implemented</div>
+  </div>
+</div>
+</body>
+</html>
