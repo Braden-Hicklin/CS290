@@ -3,3 +3,6 @@ along with their associated movemnets, supporting muscles, and exercises you can
 Basic title with description
 Large image of a human muscle structure front and back
 Hovering over the muscle would allow you to read about it 
+Due to a lack of experience this time around I hope to simply have an image that has a text popup on interaction with the image
+This can either be when clicking the image or when hovering over it, I will attempt for the effect to be produced upon hovering
+over the image but if that proves to be beyond my current capabilities I will just stick with when its clicked.
