@@ -11,5 +11,5 @@ and more.
 This rendition will only include three interactable muscles, so I can focus on polishing up the way the interactions work.
 There will also be a search bar that allows the user to type the muscles name in and learn even more about the muscle.
 When hovering over a muscle, a brief summary of the muscles function, as well as an optimal exercise and stretch associated with the muscle will popup.
-When searching for a muscle, a more in depth summary of the muscles function/anatomy will appear along with drop down menus that let the user look for exercises 
-and stretches. 
+When searching for a muscle, a more in depth summary of the muscles function/anatomy will appear along with drop down menus and navigation liststhat let the user 
+look for exercises and stretches. 
