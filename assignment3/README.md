@@ -5,11 +5,9 @@ The basis of this website is to serve as an interactive muscle anatomy chart tha
 and what exercises work best for strengthening them.
 
 ## Additions:
-In the previous assignment I created a basic outline for the website, in this one I will create some degree of interaction using imagemaps, searchboxes, drop down menus,
-and more.
+In the previous assignment I created a basic outline for the website, in this one I will create some interaction and polish using imagemaps, searchboxes, @mediatype, nav bars, and more.
 
-This rendition will only include three interactable muscles, so I can focus on polishing up the way the interactions work.
-There will also be a search bar that allows the user to type the muscles name in and learn even more about the muscle.
-When hovering over a muscle, a brief summary of the muscles function, as well as an optimal exercise and stretch associated with the muscle will popup.
-When searching for a muscle, a more in depth summary of the muscles function/anatomy will appear along with drop down menus and navigation liststhat let the user 
-look for exercises and stretches. 
+This rendition will only include three interactable muscles, so I can focus on polishing up other areas of the website
+There will also be a search bar that allows the user to type the muscles name in and learn even more about the muscle, however this funciton will be cosmetic for now.
+There will be three tabs in the top of the webpage for Home, references, and an about section.
+When hovering over a muscle, a brief summary of the muscles function will popup.
