@@ -1,0 +1,46 @@
+<html>
+<style>
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #cccccc;
+    padding: 8px
+  }
+  
+  th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  tr:hover {
+    background-color: grey;
+    color: white;
+  }
+  
+</style>
+<script src="import.js"></script>
+<body>
+  <table>
+      <thead>
+         <tr>
+           <th>GPU</th>
+           <th onclick="sortColumn('price')">Price</th>
+           <th onclick="sortColumn('benchmark')">Benchmark</th>
+           <th onclick="sortColumn('compareVal')">Value ((Price/Benchmark)*100)</th>
+         </tr>
+      </thead>
+      <tbody id="tableData"></tbody>
+      
+  </table>
+</body>
+
+</html>
