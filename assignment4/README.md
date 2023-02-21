@@ -18,6 +18,3 @@ attempted website scraping. Again, this uses axios, cheerio, nodemon, and expres
 the scraping. In the future I will do more research on how to use these libraries and see if there are other libraries that would suit my needs better. Otherwise, I 
 think if I were to follow through with these libraries I would find a way to export the data to a .json file and then convert that .json to a dictionary in a seperate
 .js script that would then initialize the datatable used for the html script.
-
-## ADDITIONAL INFO
-I included my assignment 3 html file to satisfy some of the assignments requirements since I had used some javascript in the previous assignment to utilize onclick methods.
