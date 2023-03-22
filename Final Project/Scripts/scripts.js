@@ -15,6 +15,17 @@ $(function () {
     });
 });
 
+// Alters the stat blocks to show stat bonuses
+$(document).ready(function () {
+    $('input[type="number"]').keyup(function () {
+        var id = this.id;
+        $('input[id="' +id +'"]').keyup(function () {
+            var idprof = this.id;
+            $('#' +idprof +'_prof').text(Math.round(($(this).val() - 10 )/ 2 ));
+        });
+    });
+});
+
 // Saves the user from redirect
 window.addEventListener("load", function () {
     const form = document.getElementById('my-form');
